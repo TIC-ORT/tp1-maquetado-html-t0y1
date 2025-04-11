@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+header{
+    background-color: #ffffff;
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.4%;
+
+    .cuadrado{
+        background-color: #3e3e3e;
+        height: 55%;
+        aspect-ratio: 1/1;
+        display: flex;
+    }
+
+    .top{
+        background-color: #ffffff;
+        height: 30%;
+        aspect-ratio: 8/1;
+        display: flex;
+    }
+}
