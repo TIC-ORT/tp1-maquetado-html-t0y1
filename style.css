@@ -90,3 +90,53 @@
     transform: translateY(-50%);
 }
 
+.row2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 350px;
+    margin-top: 70px;
+}
+.cuadrado4 {
+    background-color: rgba(253, 253, 170, 0.74);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.line4 {
+    background-color: yellow;
+    height: 14px;
+    width: 200px;
+}
+.cuadrado5 {
+    background-color: rgba(0, 256, 256, 0.25);
+    height: 200px;
+    width: 200px;
+}
+.line5 {
+    width: 200px;
+    height: 14px;
+    background-color: rgb(167, 240, 240);
+}
+.cuadrado6 {
+    background-color: rgba(250, 94, 94, 0.87);
+    height: 200px;
+    width: 200px;
+}
+.line6 {
+    width: 200px;
+    height: 14px;
+    background-color: red;
+}
+.small4, .small5, .small6
+{
+    background-color: inherit;
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top:45%;
+    left: 32.5%;
+    transform: translateY(-50%);
+}
