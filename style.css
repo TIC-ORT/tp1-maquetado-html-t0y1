@@ -37,7 +37,15 @@
     height: 7px;
     background-color: white;
 }
-
+.row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    margin-top: 5px;
+}
 .cuadrado1 {
     background-color: rgba(0, 256, 256, 0.25);
     height: 200px;
@@ -49,8 +57,29 @@
     height: 14px;
     background-color: rgb(167, 240, 240);
 }
+.cuadrado2 {
+    background-color: rgba(250, 94, 94, 0.87);
+    height: 200px;
+    width: 200px;
+    margin-right: 300px;
+}
+.line2 {
+    width: 200px;
+    height: 14px;
+    background-color: red;
+}
+.cuadrado3 {
+    background-color: rgba(253, 253, 170, 0.5);
+    height: 200px;
+    width: 200px;
+}
+.line3 {
+    background-color: yellow;
+    height: 14px;
+    width: 200px;
+}
 
-.small1
+.small1, .small2, .small3
 {
     background-color: inherit;
     height: 75px;
